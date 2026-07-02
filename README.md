@@ -31,8 +31,11 @@ flutter run
 ## 📂 Structure du projet
 lib/
 ├── models/         # Modèles de données (Question)
+
 ├── pages/          # Écrans (Home, Sélection niveau, Quiz, Résultats)
+
 ├── services/        # Logique métier (QuizService)
+
 └── main.dart
 
 
