@@ -1,0 +1,3618 @@
+{
+    "flutter": [
+        {
+            "question": "Quel langage est utilisé par Flutter ?",
+            "options": [
+                "Java",
+                "Kotlin",
+                "Dart"
+            ],
+            "correct": "Dart"
+        },
+        {
+            "question": "Quelle entreprise développe Flutter ?",
+            "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+            ],
+            "correct": "Google"
+        },
+        {
+            "question": "Quel widget est utilisé pour la mise en page de base ?",
+            "options": [
+                "Container",
+                "Scaffold",
+                "Text"
+            ],
+            "correct": "Scaffold"
+        },
+        {
+            "question": "Comment s'appelle l'arbre de widgets ?",
+            "options": [
+                "Widget Tree",
+                "DOM",
+                "Component Tree"
+            ],
+            "correct": "Widget Tree"
+        },
+        {
+            "question": "Quel widget permet de créer une liste déroulante ?",
+            "options": [
+                "ListView",
+                "Column",
+                "Stack"
+            ],
+            "correct": "ListView"
+        },
+        {
+            "question": "Quelle commande crée un nouveau projet ?",
+            "options": [
+                "flutter new",
+                "flutter create",
+                "flutter init"
+            ],
+            "correct": "flutter create"
+        },
+        {
+            "question": "Quel fichier gère les dépendances ?",
+            "options": [
+                "pubspec.yaml",
+                "build.gradle",
+                "package.json"
+            ],
+            "correct": "pubspec.yaml"
+        },
+        {
+            "question": "Quel widget permet de superposer des éléments ?",
+            "options": [
+                "Row",
+                "Stack",
+                "Column"
+            ],
+            "correct": "Stack"
+        },
+        {
+            "question": "Comment définir un état mutable ?",
+            "options": [
+                "StatelessWidget",
+                "StatefulWidget",
+                "InheritedWidget"
+            ],
+            "correct": "StatefulWidget"
+        },
+        {
+            "question": "Quelle fonction démarre l'application ?",
+            "options": [
+                "runApp()",
+                "main()",
+                "start()"
+            ],
+            "correct": "runApp()"
+        },
+        {
+            "question": "Quel est le moteur de rendu de Flutter ?",
+            "options": [
+                "Skia",
+                "WebKit",
+                "Gecko"
+            ],
+            "correct": "Skia"
+        },
+        {
+            "question": "Comment recharger le code sans redémarrer ?",
+            "options": [
+                "Hot Reload",
+                "Hot Restart",
+                "Cold Boot"
+            ],
+            "correct": "Hot Reload"
+        },
+        {
+            "question": "Quel widget est utilisé pour les icônes ?",
+            "options": [
+                "Image",
+                "Icon",
+                "Svg"
+            ],
+            "correct": "Icon"
+        },
+        {
+            "question": "Quel widget permet de détecter les gestes ?",
+            "options": [
+                "GestureDetector",
+                "TouchListener",
+                "OnClick"
+            ],
+            "correct": "GestureDetector"
+        },
+        {
+            "question": "Quel widget crée une grille ?",
+            "options": [
+                "GridView",
+                "Table",
+                "Matrix"
+            ],
+            "correct": "GridView"
+        },
+        {
+            "question": "Quel package est utilisé pour la navigation ?",
+            "options": [
+                "go_router",
+                "flutter_nav",
+                "route_manager"
+            ],
+            "correct": "go_router"
+        },
+        {
+            "question": "Quel widget centre son enfant ?",
+            "options": [
+                "Center",
+                "Align",
+                "Padding"
+            ],
+            "correct": "Center"
+        },
+        {
+            "question": "Comment ajouter du padding ?",
+            "options": [
+                "Margin",
+                "Padding",
+                "Spacer"
+            ],
+            "correct": "Padding"
+        },
+        {
+            "question": "Quel widget permet de saisir du texte ?",
+            "options": [
+                "Text",
+                "TextField",
+                "Input"
+            ],
+            "correct": "TextField"
+        },
+        {
+            "question": "Quel est le widget racine par défaut ?",
+            "options": [
+                "MaterialApp",
+                "CupertinoApp",
+                "WidgetsApp"
+            ],
+            "correct": "MaterialApp"
+        },
+        {
+            "question": "Comment afficher une image locale ?",
+            "options": [
+                "Image.network",
+                "Image.asset",
+                "Image.file"
+            ],
+            "correct": "Image.asset"
+        },
+        {
+            "question": "Quel widget crée un bouton surélevé ?",
+            "options": [
+                "FlatButton",
+                "ElevatedButton",
+                "RaisedButton"
+            ],
+            "correct": "ElevatedButton"
+        },
+        {
+            "question": "Quel est le cycle de vie d'un State ?",
+            "options": [
+                "initState",
+                "build",
+                "dispose"
+            ],
+            "correct": "initState"
+        },
+        {
+            "question": "Quel widget permet d'espacer les éléments ?",
+            "options": [
+                "SizedBox",
+                "Spacer",
+                "Gap"
+            ],
+            "correct": "SizedBox"
+        },
+        {
+            "question": "Comment changer le thème ?",
+            "options": [
+                "ThemeData",
+                "Style",
+                "Css"
+            ],
+            "correct": "ThemeData"
+        },
+        {
+            "question": "Quel widget pour une barre de navigation basse ?",
+            "options": [
+                "BottomNavigationBar",
+                "TabBar",
+                "Drawer"
+            ],
+            "correct": "BottomNavigationBar"
+        },
+        {
+            "question": "Quel widget pour un menu latéral ?",
+            "options": [
+                "Drawer",
+                "Menu",
+                "Sidebar"
+            ],
+            "correct": "Drawer"
+        },
+        {
+            "question": "Quel est le type de retour de build() ?",
+            "options": [
+                "Widget",
+                "void",
+                "Context"
+            ],
+            "correct": "Widget"
+        },
+        {
+            "question": "Comment afficher une alerte ?",
+            "options": [
+                "AlertDialog",
+                "Popup",
+                "Toast"
+            ],
+            "correct": "AlertDialog"
+        },
+        {
+            "question": "Quel widget pour scroller une colonne ?",
+            "options": [
+                "SingleChildScrollView",
+                "Scrollable",
+                "ListView"
+            ],
+            "correct": "SingleChildScrollView"
+        },
+        {
+            "question": "Quel mot-clé pour l'asynchrone ?",
+            "options": [
+                "async",
+                "await",
+                "future"
+            ],
+            "correct": "async"
+        },
+        {
+            "question": "Quel widget pour organiser en ligne ?",
+            "options": [
+                "Row",
+                "Column",
+                "List"
+            ],
+            "correct": "Row"
+        },
+        {
+            "question": "Quel widget pour organiser en colonne ?",
+            "options": [
+                "Column",
+                "Row",
+                "Grid"
+            ],
+            "correct": "Column"
+        },
+        {
+            "question": "Quel widget pour une carte ?",
+            "options": [
+                "Card",
+                "Box",
+                "Container"
+            ],
+            "correct": "Card"
+        },
+        {
+            "question": "Quel widget pour un cercle avatar ?",
+            "options": [
+                "CircleAvatar",
+                "ImageCircle",
+                "RoundImage"
+            ],
+            "correct": "CircleAvatar"
+        },
+        {
+            "question": "Quel widget pour une barre de progression ?",
+            "options": [
+                "LinearProgressIndicator",
+                "ProgressBar",
+                "Loader"
+            ],
+            "correct": "LinearProgressIndicator"
+        },
+        {
+            "question": "Comment naviguer vers une nouvelle page ?",
+            "options": [
+                "Navigator.push",
+                "Navigator.go",
+                "Navigator.next"
+            ],
+            "correct": "Navigator.push"
+        },
+        {
+            "question": "Comment revenir à la page précédente ?",
+            "options": [
+                "Navigator.pop",
+                "Navigator.back",
+                "Navigator.return"
+            ],
+            "correct": "Navigator.pop"
+        },
+        {
+            "question": "Quel widget pour un texte cliquable ?",
+            "options": [
+                "TextButton",
+                "ClickableText",
+                "Link"
+            ],
+            "correct": "TextButton"
+        },
+        {
+            "question": "Quel widget pour une case à cocher ?",
+            "options": [
+                "Checkbox",
+                "Radio",
+                "Switch"
+            ],
+            "correct": "Checkbox"
+        },
+        {
+            "question": "Quel widget pour un bouton radio ?",
+            "options": [
+                "Radio",
+                "Checkbox",
+                "Switch"
+            ],
+            "correct": "Radio"
+        },
+        {
+            "question": "Quel widget pour un switch ?",
+            "options": [
+                "Switch",
+                "Toggle",
+                "Checkbox"
+            ],
+            "correct": "Switch"
+        },
+        {
+            "question": "Quel widget pour un slider ?",
+            "options": [
+                "Slider",
+                "Range",
+                "Seekbar"
+            ],
+            "correct": "Slider"
+        },
+        {
+            "question": "Quel widget pour un tableau ?",
+            "options": [
+                "Table",
+                "Grid",
+                "List"
+            ],
+            "correct": "Table"
+        },
+        {
+            "question": "Quel widget pour un onglet ?",
+            "options": [
+                "Tab",
+                "Page",
+                "Section"
+            ],
+            "correct": "Tab"
+        },
+        {
+            "question": "Quel widget pour contrôler les onglets ?",
+            "options": [
+                "TabController",
+                "PageController",
+                "ScrollController"
+            ],
+            "correct": "TabController"
+        },
+        {
+            "question": "Quel widget pour une page vue ?",
+            "options": [
+                "PageView",
+                "SwipeView",
+                "Carousel"
+            ],
+            "correct": "PageView"
+        },
+        {
+            "question": "Quel widget pour une grille animée ?",
+            "options": [
+                "AnimatedGrid",
+                "GridView",
+                "Grid"
+            ],
+            "correct": "AnimatedGrid"
+        },
+        {
+            "question": "Quel widget pour un conteneur animé ?",
+            "options": [
+                "AnimatedContainer",
+                "Container",
+                "Box"
+            ],
+            "correct": "AnimatedContainer"
+        },
+        {
+            "question": "Quel widget pour une opacité animée ?",
+            "options": [
+                "AnimatedOpacity",
+                "Opacity",
+                "Fade"
+            ],
+            "correct": "AnimatedOpacity"
+        }
+    ],
+    "iot": [
+        {
+            "question": "Que signifie IoT ?",
+            "options": [
+                "Internet of Things",
+                "Intranet of Things",
+                "Input of Things"
+            ],
+            "correct": "Internet of Things"
+        },
+        {
+            "question": "Quel protocole est léger pour l'IoT ?",
+            "options": [
+                "MQTT",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": "MQTT"
+        },
+        {
+            "question": "Quel composant capte les données ?",
+            "options": [
+                "Capteur",
+                "Actuateur",
+                "Serveur"
+            ],
+            "correct": "Capteur"
+        },
+        {
+            "question": "Quel composant effectue une action ?",
+            "options": [
+                "Actuateur",
+                "Capteur",
+                "Routeur"
+            ],
+            "correct": "Actuateur"
+        },
+        {
+            "question": "Quelle carte est populaire pour le prototypage ?",
+            "options": [
+                "Arduino",
+                "Intel",
+                "AMD"
+            ],
+            "correct": "Arduino"
+        },
+        {
+            "question": "Quel mini-ordinateur est utilisé en IoT ?",
+            "options": [
+                "Raspberry Pi",
+                "Mac Mini",
+                "Dell"
+            ],
+            "correct": "Raspberry Pi"
+        },
+        {
+            "question": "Quel protocole réseau basse consommation ?",
+            "options": [
+                "LoRaWAN",
+                "WiFi",
+                "Ethernet"
+            ],
+            "correct": "LoRaWAN"
+        },
+        {
+            "question": "Quel est le port par défaut de MQTT ?",
+            "options": [
+                "1883",
+                "80",
+                "443"
+            ],
+            "correct": "1883"
+        },
+        {
+            "question": "Quel modèle de communication utilise MQTT ?",
+            "options": [
+                "Pub/Sub",
+                "Client/Serveur",
+                "P2P"
+            ],
+            "correct": "Pub/Sub"
+        },
+        {
+            "question": "Quelle technologie sans fil à courte portée ?",
+            "options": [
+                "Bluetooth",
+                "LoRa",
+                "Sigfox"
+            ],
+            "correct": "Bluetooth"
+        },
+        {
+            "question": "Quelle technologie utilise des tags passifs ?",
+            "options": [
+                "RFID",
+                "NFC",
+                "WiFi"
+            ],
+            "correct": "RFID"
+        },
+        {
+            "question": "Quelle est la version d'IP pour l'IoT ?",
+            "options": [
+                "IPv6",
+                "IPv4",
+                "IPX"
+            ],
+            "correct": "IPv6"
+        },
+        {
+            "question": "Quel OS pour l'IoT de Microsoft ?",
+            "options": [
+                "Windows IoT",
+                "Linux",
+                "Android"
+            ],
+            "correct": "Windows IoT"
+        },
+        {
+            "question": "Quel langage est souvent utilisé sur Arduino ?",
+            "options": [
+                "C++",
+                "Python",
+                "Java"
+            ],
+            "correct": "C++"
+        },
+        {
+            "question": "Quel langage est souvent utilisé sur Raspberry Pi ?",
+            "options": [
+                "Python",
+                "C#",
+                "Swift"
+            ],
+            "correct": "Python"
+        },
+        {
+            "question": "Quel protocole est basé sur REST ?",
+            "options": [
+                "CoAP",
+                "MQTT",
+                "AMQP"
+            ],
+            "correct": "CoAP"
+        },
+        {
+            "question": "Que signifie M2M ?",
+            "options": [
+                "Machine to Machine",
+                "Man to Machine",
+                "Machine to Man"
+            ],
+            "correct": "Machine to Machine"
+        },
+        {
+            "question": "Quel est un défi majeur de l'IoT ?",
+            "options": [
+                "Sécurité",
+                "Vitesse",
+                "Couleur"
+            ],
+            "correct": "Sécurité"
+        },
+        {
+            "question": "Quel réseau est dédié à l'IoT ?",
+            "options": [
+                "Sigfox",
+                "4G",
+                "Fibre"
+            ],
+            "correct": "Sigfox"
+        },
+        {
+            "question": "Quelle topologie réseau pour ZigBee ?",
+            "options": [
+                "Mesh",
+                "Etoile",
+                "Bus"
+            ],
+            "correct": "Mesh"
+        },
+        {
+            "question": "Quel capteur mesure la température ?",
+            "options": [
+                "DHT11",
+                "HC-SR04",
+                "LDR"
+            ],
+            "correct": "DHT11"
+        },
+        {
+            "question": "Quel capteur mesure la distance ?",
+            "options": [
+                "Ultrasons",
+                "Infrarouge",
+                "Pression"
+            ],
+            "correct": "Ultrasons"
+        },
+        {
+            "question": "Quel capteur détecte le mouvement ?",
+            "options": [
+                "PIR",
+                "LDR",
+                "LED"
+            ],
+            "correct": "PIR"
+        },
+        {
+            "question": "Quel composant contrôle une LED ?",
+            "options": [
+                "Résistance",
+                "Condensateur",
+                "Inductance"
+            ],
+            "correct": "Résistance"
+        },
+        {
+            "question": "Quelle plateforme Cloud pour l'IoT ?",
+            "options": [
+                "AWS IoT",
+                "Google Drive",
+                "Dropbox"
+            ],
+            "correct": "AWS IoT"
+        },
+        {
+            "question": "Quel terme pour le traitement en bordure ?",
+            "options": [
+                "Edge Computing",
+                "Cloud Computing",
+                "Fog Computing"
+            ],
+            "correct": "Edge Computing"
+        },
+        {
+            "question": "Quel protocole pour la domotique ?",
+            "options": [
+                "Z-Wave",
+                "FTP",
+                "SSH"
+            ],
+            "correct": "Z-Wave"
+        },
+        {
+            "question": "Quelle est la portée du NFC ?",
+            "options": [
+                "< 10 cm",
+                "100 m",
+                "1 km"
+            ],
+            "correct": "< 10 cm"
+        },
+        {
+            "question": "Quelle est la portée du Bluetooth ?",
+            "options": [
+                "~10 m",
+                "~100 km",
+                "~1 cm"
+            ],
+            "correct": "~10 m"
+        },
+        {
+            "question": "Combien de broches a un ESP8266 ?",
+            "options": [
+                "Variable",
+                "100",
+                "2"
+            ],
+            "correct": "Variable"
+        },
+        {
+            "question": "Quel module WiFi pour Arduino ?",
+            "options": [
+                "ESP8266",
+                "HC-05",
+                "NRF24"
+            ],
+            "correct": "ESP8266"
+        },
+        {
+            "question": "Quel module Bluetooth pour Arduino ?",
+            "options": [
+                "HC-05",
+                "ESP8266",
+                "DHT11"
+            ],
+            "correct": "HC-05"
+        },
+        {
+            "question": "Quelle tension pour Arduino Uno ?",
+            "options": [
+                "5V",
+                "12V",
+                "220V"
+            ],
+            "correct": "5V"
+        },
+        {
+            "question": "Quelle tension pour Raspberry Pi ?",
+            "options": [
+                "5V",
+                "12V",
+                "3.3V"
+            ],
+            "correct": "5V"
+        },
+        {
+            "question": "Quel connecteur pour programmer Arduino ?",
+            "options": [
+                "USB",
+                "HDMI",
+                "VGA"
+            ],
+            "correct": "USB"
+        },
+        {
+            "question": "Quel connecteur vidéo sur Raspberry Pi ?",
+            "options": [
+                "HDMI",
+                "VGA",
+                "DVI"
+            ],
+            "correct": "HDMI"
+        },
+        {
+            "question": "Quel système d'exploitation pour Raspberry Pi ?",
+            "options": [
+                "Raspbian",
+                "Windows 10",
+                "MacOS"
+            ],
+            "correct": "Raspbian"
+        },
+        {
+            "question": "Quel protocole de couche application ?",
+            "options": [
+                "CoAP",
+                "TCP",
+                "UDP"
+            ],
+            "correct": "CoAP"
+        },
+        {
+            "question": "Quel protocole de couche transport ?",
+            "options": [
+                "UDP",
+                "HTTP",
+                "MQTT"
+            ],
+            "correct": "UDP"
+        },
+        {
+            "question": "Quel protocole pour les réseaux de capteurs ?",
+            "options": [
+                "6LoWPAN",
+                "Ethernet",
+                "WiFi"
+            ],
+            "correct": "6LoWPAN"
+        },
+        {
+            "question": "Quel type de signal est numérique ?",
+            "options": [
+                "0 ou 1",
+                "Continu",
+                "Onde"
+            ],
+            "correct": "0 ou 1"
+        },
+        {
+            "question": "Quel type de signal est analogique ?",
+            "options": [
+                "Continu",
+                "Discret",
+                "Binaire"
+            ],
+            "correct": "Continu"
+        },
+        {
+            "question": "Quel convertisseur Analogique-Numérique ?",
+            "options": [
+                "ADC",
+                "DAC",
+                "PWM"
+            ],
+            "correct": "ADC"
+        },
+        {
+            "question": "Quel convertisseur Numérique-Analogique ?",
+            "options": [
+                "DAC",
+                "ADC",
+                "UART"
+            ],
+            "correct": "DAC"
+        },
+        {
+            "question": "Quelle modulation pour varier la puissance ?",
+            "options": [
+                "PWM",
+                "FM",
+                "AM"
+            ],
+            "correct": "PWM"
+        },
+        {
+            "question": "Quel bus série synchrone ?",
+            "options": [
+                "I2C",
+                "UART",
+                "USB"
+            ],
+            "correct": "I2C"
+        },
+        {
+            "question": "Quel bus série asynchrone ?",
+            "options": [
+                "UART",
+                "SPI",
+                "I2C"
+            ],
+            "correct": "UART"
+        },
+        {
+            "question": "Quel bus série très rapide ?",
+            "options": [
+                "SPI",
+                "I2C",
+                "UART"
+            ],
+            "correct": "SPI"
+        },
+        {
+            "question": "Quel connecteur GPIO ?",
+            "options": [
+                "Broches",
+                "USB",
+                "RJ45"
+            ],
+            "correct": "Broches"
+        },
+        {
+            "question": "Quel outil pour visualiser les flux Node-RED ?",
+            "options": [
+                "Dashboard",
+                "Console",
+                "Terminal"
+            ],
+            "correct": "Dashboard"
+        }
+    ],
+    "cloud_computing": [
+        {
+            "question": "Que signifie IaaS ?",
+            "options": [
+                "Infrastructure as a Service",
+                "Internet as a Service",
+                "Image as a Service"
+            ],
+            "correct": "Infrastructure as a Service"
+        },
+        {
+            "question": "Que signifie PaaS ?",
+            "options": [
+                "Platform as a Service",
+                "Product as a Service",
+                "Protocol as a Service"
+            ],
+            "correct": "Platform as a Service"
+        },
+        {
+            "question": "Que signifie SaaS ?",
+            "options": [
+                "Software as a Service",
+                "Storage as a Service",
+                "System as a Service"
+            ],
+            "correct": "Software as a Service"
+        },
+        {
+            "question": "Quel est un fournisseur de Cloud public ?",
+            "options": [
+                "AWS",
+                "Apache",
+                "MySQL"
+            ],
+            "correct": "AWS"
+        },
+        {
+            "question": "Quel service de stockage AWS ?",
+            "options": [
+                "S3",
+                "EC2",
+                "Lambda"
+            ],
+            "correct": "S3"
+        },
+        {
+            "question": "Quel service de calcul AWS ?",
+            "options": [
+                "EC2",
+                "S3",
+                "RDS"
+            ],
+            "correct": "EC2"
+        },
+        {
+            "question": "Quel service de base de données AWS ?",
+            "options": [
+                "RDS",
+                "EC2",
+                "S3"
+            ],
+            "correct": "RDS"
+        },
+        {
+            "question": "Quel modèle de déploiement est privé ?",
+            "options": [
+                "Cloud Privé",
+                "Cloud Public",
+                "Cloud Hybride"
+            ],
+            "correct": "Cloud Privé"
+        },
+        {
+            "question": "Quel modèle combine public et privé ?",
+            "options": [
+                "Hybride",
+                "Community",
+                "Multi-Cloud"
+            ],
+            "correct": "Hybride"
+        },
+        {
+            "question": "Quel outil pour l'Infrastructure as Code ?",
+            "options": [
+                "Terraform",
+                "Word",
+                "Excel"
+            ],
+            "correct": "Terraform"
+        },
+        {
+            "question": "Quel conteneur est populaire ?",
+            "options": [
+                "Docker",
+                "VMware",
+                "VirtualBox"
+            ],
+            "correct": "Docker"
+        },
+        {
+            "question": "Quel orchestrateur de conteneurs ?",
+            "options": [
+                "Kubernetes",
+                "Docker",
+                "Vagrant"
+            ],
+            "correct": "Kubernetes"
+        },
+        {
+            "question": "Quel concept permet de payer à l'usage ?",
+            "options": [
+                "Pay-as-you-go",
+                "Flat rate",
+                "Subscription"
+            ],
+            "correct": "Pay-as-you-go"
+        },
+        {
+            "question": "Quelle est la caractéristique d'élasticité ?",
+            "options": [
+                "Scalabilité auto",
+                "Fixe",
+                "Manuelle"
+            ],
+            "correct": "Scalabilité auto"
+        },
+        {
+            "question": "Quel service Microsoft Azure ?",
+            "options": [
+                "Azure Blob",
+                "S3",
+                "Google Drive"
+            ],
+            "correct": "Azure Blob"
+        },
+        {
+            "question": "Quel service Google Cloud ?",
+            "options": [
+                "GCP",
+                "AWS",
+                "Azure"
+            ],
+            "correct": "GCP"
+        },
+        {
+            "question": "Que signifie SLA ?",
+            "options": [
+                "Service Level Agreement",
+                "Software Level Agreement",
+                "System Level Agreement"
+            ],
+            "correct": "Service Level Agreement"
+        },
+        {
+            "question": "Quel type de virtualisation ?",
+            "options": [
+                "Hyperviseur",
+                "Superviseur",
+                "Monitor"
+            ],
+            "correct": "Hyperviseur"
+        },
+        {
+            "question": "Quel hyperviseur de Type 1 ?",
+            "options": [
+                "ESXi",
+                "VirtualBox",
+                "Workstation"
+            ],
+            "correct": "ESXi"
+        },
+        {
+            "question": "Quel hyperviseur de Type 2 ?",
+            "options": [
+                "VirtualBox",
+                "ESXi",
+                "Xen"
+            ],
+            "correct": "VirtualBox"
+        },
+        {
+            "question": "Quel est l'avantage du Cloud ?",
+            "options": [
+                "Flexibilité",
+                "Coût fixe",
+                "Lenteur"
+            ],
+            "correct": "Flexibilité"
+        },
+        {
+            "question": "Quel est un risque du Cloud ?",
+            "options": [
+                "Confidentialité",
+                "Vitesse",
+                "Accessibilité"
+            ],
+            "correct": "Confidentialité"
+        },
+        {
+            "question": "Quelle région AWS est en France ?",
+            "options": [
+                "eu-west-3",
+                "us-east-1",
+                "asia-south-1"
+            ],
+            "correct": "eu-west-3"
+        },
+        {
+            "question": "Quel service serverless AWS ?",
+            "options": [
+                "Lambda",
+                "EC2",
+                "EKS"
+            ],
+            "correct": "Lambda"
+        },
+        {
+            "question": "Quel service serverless Azure ?",
+            "options": [
+                "Azure Functions",
+                "Azure VM",
+                "Azure SQL"
+            ],
+            "correct": "Azure Functions"
+        },
+        {
+            "question": "Quel service serverless GCP ?",
+            "options": [
+                "Cloud Functions",
+                "Compute Engine",
+                "Cloud SQL"
+            ],
+            "correct": "Cloud Functions"
+        },
+        {
+            "question": "Quel stockage bloc AWS ?",
+            "options": [
+                "EBS",
+                "S3",
+                "EFS"
+            ],
+            "correct": "EBS"
+        },
+        {
+            "question": "Quel stockage fichier AWS ?",
+            "options": [
+                "EFS",
+                "EBS",
+                "S3"
+            ],
+            "correct": "EFS"
+        },
+        {
+            "question": "Quel réseau privé virtuel AWS ?",
+            "options": [
+                "VPC",
+                "VPN",
+                "WAN"
+            ],
+            "correct": "VPC"
+        },
+        {
+            "question": "Quel service de distribution de contenu ?",
+            "options": [
+                "CloudFront",
+                "Route53",
+                "DirectConnect"
+            ],
+            "correct": "CloudFront"
+        },
+        {
+            "question": "Quel service DNS AWS ?",
+            "options": [
+                "Route53",
+                "DNS Simple",
+                "CloudDNS"
+            ],
+            "correct": "Route53"
+        },
+        {
+            "question": "Quel service de monitoring AWS ?",
+            "options": [
+                "CloudWatch",
+                "CloudTrail",
+                "Config"
+            ],
+            "correct": "CloudWatch"
+        },
+        {
+            "question": "Quel service d'audit AWS ?",
+            "options": [
+                "CloudTrail",
+                "CloudWatch",
+                "Inspector"
+            ],
+            "correct": "CloudTrail"
+        },
+        {
+            "question": "Quel outil de gestion de configuration ?",
+            "options": [
+                "Ansible",
+                "Terraform",
+                "Git"
+            ],
+            "correct": "Ansible"
+        },
+        {
+            "question": "Quelle base de données NoSQL AWS ?",
+            "options": [
+                "DynamoDB",
+                "Aurora",
+                "Redshift"
+            ],
+            "correct": "DynamoDB"
+        },
+        {
+            "question": "Quel entrepôt de données AWS ?",
+            "options": [
+                "Redshift",
+                "DynamoDB",
+                "RDS"
+            ],
+            "correct": "Redshift"
+        },
+        {
+            "question": "Quel service de migration ?",
+            "options": [
+                "DMS",
+                "SMS",
+                "EC2"
+            ],
+            "correct": "DMS"
+        },
+        {
+            "question": "Quel service d'identité AWS ?",
+            "options": [
+                "IAM",
+                "Cognito",
+                "Directory"
+            ],
+            "correct": "IAM"
+        },
+        {
+            "question": "Quel standard d'auth ?",
+            "options": [
+                "OAuth",
+                "SQL",
+                "HTML"
+            ],
+            "correct": "OAuth"
+        },
+        {
+            "question": "Quel protocole de transfert de fichiers ?",
+            "options": [
+                "SFTP",
+                "HTTP",
+                "SMTP"
+            ],
+            "correct": "SFTP"
+        },
+        {
+            "question": "Quel modèle de responsabilité ?",
+            "options": [
+                "Partagée",
+                "Unique",
+                "Totale"
+            ],
+            "correct": "Partagée"
+        },
+        {
+            "question": "Qui sécurise le cloud ?",
+            "options": [
+                "Fournisseur",
+                "Client",
+                "Personne"
+            ],
+            "correct": "Fournisseur"
+        },
+        {
+            "question": "Qui sécurise dans le cloud ?",
+            "options": [
+                "Client",
+                "Fournisseur",
+                "Tout le monde"
+            ],
+            "correct": "Client"
+        },
+        {
+            "question": "Quelle certification Cloud ?",
+            "options": [
+                "AWS Solutions Architect",
+                "CCNA",
+                "PMP"
+            ],
+            "correct": "AWS Solutions Architect"
+        },
+        {
+            "question": "Quel outil CI/CD ?",
+            "options": [
+                "Jenkins",
+                "Word",
+                "Paint"
+            ],
+            "correct": "Jenkins"
+        },
+        {
+            "question": "Quel repository de code ?",
+            "options": [
+                "GitHub",
+                "Drive",
+                "Dropbox"
+            ],
+            "correct": "GitHub"
+        },
+        {
+            "question": "Quelle commande Docker pour lancer ?",
+            "options": [
+                "docker run",
+                "docker start",
+                "docker go"
+            ],
+            "correct": "docker run"
+        },
+        {
+            "question": "Quelle commande Docker pour construire ?",
+            "options": [
+                "docker build",
+                "docker make",
+                "docker create"
+            ],
+            "correct": "docker build"
+        },
+        {
+            "question": "Quel fichier décrit un conteneur ?",
+            "options": [
+                "Dockerfile",
+                "Containerfile",
+                "Imagefile"
+            ],
+            "correct": "Dockerfile"
+        },
+        {
+            "question": "Quel fichier décrit des services ?",
+            "options": [
+                "docker-compose.yml",
+                "services.xml",
+                "app.json"
+            ],
+            "correct": "docker-compose.yml"
+        }
+    ],
+    "big_data": [
+        {
+            "question": "Quel V correspond à la quantité ?",
+            "options": [
+                "Volume",
+                "Vélocité",
+                "Variété"
+            ],
+            "correct": "Volume"
+        },
+        {
+            "question": "Quel V correspond à la vitesse ?",
+            "options": [
+                "Vélocité",
+                "Volume",
+                "Valeur"
+            ],
+            "correct": "Vélocité"
+        },
+        {
+            "question": "Quel V correspond aux types de données ?",
+            "options": [
+                "Variété",
+                "Véracité",
+                "Volume"
+            ],
+            "correct": "Variété"
+        },
+        {
+            "question": "Quel framework de traitement distribué ?",
+            "options": [
+                "Hadoop",
+                "Word",
+                "Excel"
+            ],
+            "correct": "Hadoop"
+        },
+        {
+            "question": "Quel système de fichiers distribué ?",
+            "options": [
+                "HDFS",
+                "NTFS",
+                "FAT32"
+            ],
+            "correct": "HDFS"
+        },
+        {
+            "question": "Quel modèle de programmation Hadoop ?",
+            "options": [
+                "MapReduce",
+                "MVC",
+                "OOP"
+            ],
+            "correct": "MapReduce"
+        },
+        {
+            "question": "Quel framework de traitement en mémoire ?",
+            "options": [
+                "Spark",
+                "Hadoop",
+                "Hive"
+            ],
+            "correct": "Spark"
+        },
+        {
+            "question": "Quelle base de données NoSQL colonnes ?",
+            "options": [
+                "Cassandra",
+                "MySQL",
+                "PostgreSQL"
+            ],
+            "correct": "Cassandra"
+        },
+        {
+            "question": "Quelle base de données NoSQL documents ?",
+            "options": [
+                "MongoDB",
+                "Redis",
+                "Neo4j"
+            ],
+            "correct": "MongoDB"
+        },
+        {
+            "question": "Quelle base de données NoSQL clé-valeur ?",
+            "options": [
+                "Redis",
+                "MongoDB",
+                "HBase"
+            ],
+            "correct": "Redis"
+        },
+        {
+            "question": "Quelle base de données NoSQL graphe ?",
+            "options": [
+                "Neo4j",
+                "MySQL",
+                "Oracle"
+            ],
+            "correct": "Neo4j"
+        },
+        {
+            "question": "Quel langage de requête pour Hive ?",
+            "options": [
+                "HQL",
+                "SQL",
+                "NoSQL"
+            ],
+            "correct": "HQL"
+        },
+        {
+            "question": "Quel composant gère les ressources Hadoop ?",
+            "options": [
+                "YARN",
+                "HDFS",
+                "MapReduce"
+            ],
+            "correct": "YARN"
+        },
+        {
+            "question": "Quel outil d'ingestion de logs ?",
+            "options": [
+                "Flume",
+                "Sqoop",
+                "Oozie"
+            ],
+            "correct": "Flume"
+        },
+        {
+            "question": "Quel outil d'ingestion de bases relationnelles ?",
+            "options": [
+                "Sqoop",
+                "Flume",
+                "Pig"
+            ],
+            "correct": "Sqoop"
+        },
+        {
+            "question": "Quel moteur de streaming temps réel ?",
+            "options": [
+                "Kafka",
+                "Hadoop",
+                "HDFS"
+            ],
+            "correct": "Kafka"
+        },
+        {
+            "question": "Quel langage pour Spark ?",
+            "options": [
+                "Scala",
+                "C++",
+                "Ruby"
+            ],
+            "correct": "Scala"
+        },
+        {
+            "question": "Quelle structure de données Spark ?",
+            "options": [
+                "RDD",
+                "List",
+                "Array"
+            ],
+            "correct": "RDD"
+        },
+        {
+            "question": "Que signifie RDD ?",
+            "options": [
+                "Resilient Distributed Dataset",
+                "Rapid Data Delivery",
+                "Real Data Database"
+            ],
+            "correct": "Resilient Distributed Dataset"
+        },
+        {
+            "question": "Quel format de fichier colonne ?",
+            "options": [
+                "Parquet",
+                "CSV",
+                "JSON"
+            ],
+            "correct": "Parquet"
+        },
+        {
+            "question": "Quel format de fichier rapide en écriture ?",
+            "options": [
+                "Avro",
+                "Parquet",
+                "Orc"
+            ],
+            "correct": "Avro"
+        },
+        {
+            "question": "Quel coordinateur de services ?",
+            "options": [
+                "Zookeeper",
+                "Elephant",
+                "Giraph"
+            ],
+            "correct": "Zookeeper"
+        },
+        {
+            "question": "Quel outil de workflow ?",
+            "options": [
+                "Oozie",
+                "Cron",
+                "Task"
+            ],
+            "correct": "Oozie"
+        },
+        {
+            "question": "Quelle lib de Machine Learning Spark ?",
+            "options": [
+                "MLlib",
+                "Scikit",
+                "Pandas"
+            ],
+            "correct": "MLlib"
+        },
+        {
+            "question": "Quelle lib de Graphes Spark ?",
+            "options": [
+                "GraphX",
+                "Chart",
+                "Plot"
+            ],
+            "correct": "GraphX"
+        },
+        {
+            "question": "Quel langage de script pour Hadoop ?",
+            "options": [
+                "Pig Latin",
+                "Java",
+                "Python"
+            ],
+            "correct": "Pig Latin"
+        },
+        {
+            "question": "Quel entrepôt de données sur Hadoop ?",
+            "options": [
+                "Hive",
+                "Pig",
+                "Spark"
+            ],
+            "correct": "Hive"
+        },
+        {
+            "question": "Quelle requête SQL est supportée par Spark ?",
+            "options": [
+                "Spark SQL",
+                "HQL",
+                "NoSQL"
+            ],
+            "correct": "Spark SQL"
+        },
+        {
+            "question": "Quel mode de cluster Spark ?",
+            "options": [
+                "Standalone",
+                "Single",
+                "Duo"
+            ],
+            "correct": "Standalone"
+        },
+        {
+            "question": "Quel est le maître dans HDFS ?",
+            "options": [
+                "NameNode",
+                "DataNode",
+                "Worker"
+            ],
+            "correct": "NameNode"
+        },
+        {
+            "question": "Quel est l'esclave dans HDFS ?",
+            "options": [
+                "DataNode",
+                "NameNode",
+                "Master"
+            ],
+            "correct": "DataNode"
+        },
+        {
+            "question": "Quelle tolérance aux pannes HDFS ?",
+            "options": [
+                "Réplication",
+                "Backup",
+                "Raid"
+            ],
+            "correct": "Réplication"
+        },
+        {
+            "question": "Combien de réplicas par défaut HDFS ?",
+            "options": [
+                "3",
+                "1",
+                "5"
+            ],
+            "correct": "3"
+        },
+        {
+            "question": "Quel théorème pour les systèmes distribués ?",
+            "options": [
+                "CAP",
+                "PAC",
+                "CPA"
+            ],
+            "correct": "CAP"
+        },
+        {
+            "question": "Que signifie C dans CAP ?",
+            "options": [
+                "Cohérence",
+                "Cloud",
+                "Capacité"
+            ],
+            "correct": "Cohérence"
+        },
+        {
+            "question": "Que signifie A dans CAP ?",
+            "options": [
+                "Disponibilité",
+                "Action",
+                "Acces"
+            ],
+            "correct": "Disponibilité"
+        },
+        {
+            "question": "Que signifie P dans CAP ?",
+            "options": [
+                "Partition",
+                "Performance",
+                "Process"
+            ],
+            "correct": "Partition"
+        },
+        {
+            "question": "Quel type de base est HBase ?",
+            "options": [
+                "Colonnes",
+                "Documents",
+                "Graphe"
+            ],
+            "correct": "Colonnes"
+        },
+        {
+            "question": "Sur quoi repose HBase ?",
+            "options": [
+                "HDFS",
+                "S3",
+                "Local"
+            ],
+            "correct": "HDFS"
+        },
+        {
+            "question": "Quel moteur de recherche Big Data ?",
+            "options": [
+                "Elasticsearch",
+                "Google",
+                "Bing"
+            ],
+            "correct": "Elasticsearch"
+        },
+        {
+            "question": "Quel outil de visualisation Kibana ?",
+            "options": [
+                "Dashboard",
+                "Report",
+                "Excel"
+            ],
+            "correct": "Dashboard"
+        },
+        {
+            "question": "Quel stack ELK ?",
+            "options": [
+                "Elastic Logstash Kibana",
+                "Elastic Linux Kernel",
+                "Extract Load Keep"
+            ],
+            "correct": "Elastic Logstash Kibana"
+        },
+        {
+            "question": "Quelle étape nettoie les données ?",
+            "options": [
+                "Preprocessing",
+                "Loading",
+                "Mining"
+            ],
+            "correct": "Preprocessing"
+        },
+        {
+            "question": "Quel terme pour des données brutes ?",
+            "options": [
+                "Data Lake",
+                "Data Warehouse",
+                "Database"
+            ],
+            "correct": "Data Lake"
+        },
+        {
+            "question": "Quel terme pour des données structurées ?",
+            "options": [
+                "Data Warehouse",
+                "Data Lake",
+                "Data Swamp"
+            ],
+            "correct": "Data Warehouse"
+        },
+        {
+            "question": "Quelle entreprise a créé Hadoop ?",
+            "options": [
+                "Yahoo",
+                "Google",
+                "Facebook"
+            ],
+            "correct": "Yahoo"
+        },
+        {
+            "question": "Quelle entreprise a créé Spark ?",
+            "options": [
+                "Databricks",
+                "Apache",
+                "Google"
+            ],
+            "correct": "Databricks"
+        },
+        {
+            "question": "Quelle entreprise a créé Kafka ?",
+            "options": [
+                "LinkedIn",
+                "Facebook",
+                "Twitter"
+            ],
+            "correct": "LinkedIn"
+        },
+        {
+            "question": "Quel langage pour coder MapReduce ?",
+            "options": [
+                "Java",
+                "HTML",
+                "CSS"
+            ],
+            "correct": "Java"
+        },
+        {
+            "question": "Quel outil pour le Machine Learning ?",
+            "options": [
+                "Mahout",
+                "HDFS",
+                "YARN"
+            ],
+            "correct": "Mahout"
+        }
+    ],
+    "soa": [
+        {
+            "question": "Que signifie SOA ?",
+            "options": [
+                "Service Oriented Architecture",
+                "System Oriented Architecture",
+                "Simple Object Access"
+            ],
+            "correct": "Service Oriented Architecture"
+        },
+        {
+            "question": "Quel protocole utilise XML ?",
+            "options": [
+                "SOAP",
+                "REST",
+                "JSON"
+            ],
+            "correct": "SOAP"
+        },
+        {
+            "question": "Quel format de message pour SOAP ?",
+            "options": [
+                "XML",
+                "JSON",
+                "CSV"
+            ],
+            "correct": "XML"
+        },
+        {
+            "question": "Quel langage de description pour SOAP ?",
+            "options": [
+                "WSDL",
+                "WADL",
+                "IDL"
+            ],
+            "correct": "WSDL"
+        },
+        {
+            "question": "Que signifie REST ?",
+            "options": [
+                "Representational State Transfer",
+                "Remote Execution Transfer",
+                "Real State Transfer"
+            ],
+            "correct": "Representational State Transfer"
+        },
+        {
+            "question": "Quel format usuel pour REST ?",
+            "options": [
+                "JSON",
+                "XML",
+                "YAML"
+            ],
+            "correct": "JSON"
+        },
+        {
+            "question": "Quelle méthode HTTP pour lire ?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT"
+            ],
+            "correct": "GET"
+        },
+        {
+            "question": "Quelle méthode HTTP pour créer ?",
+            "options": [
+                "POST",
+                "GET",
+                "DELETE"
+            ],
+            "correct": "POST"
+        },
+        {
+            "question": "Quelle méthode HTTP pour mettre à jour ?",
+            "options": [
+                "PUT",
+                "GET",
+                "HEAD"
+            ],
+            "correct": "PUT"
+        },
+        {
+            "question": "Quelle méthode HTTP pour supprimer ?",
+            "options": [
+                "DELETE",
+                "REMOVE",
+                "DROP"
+            ],
+            "correct": "DELETE"
+        },
+        {
+            "question": "Quel répertoire de services ?",
+            "options": [
+                "UDDI",
+                "LDAP",
+                "DNS"
+            ],
+            "correct": "UDDI"
+        },
+        {
+            "question": "Quel principe clé de SOA ?",
+            "options": [
+                "Couplage faible",
+                "Couplage fort",
+                "Monolithique"
+            ],
+            "correct": "Couplage faible"
+        },
+        {
+            "question": "Quel bus pour l'intégration ?",
+            "options": [
+                "ESB",
+                "USB",
+                "PCI"
+            ],
+            "correct": "ESB"
+        },
+        {
+            "question": "Que signifie ESB ?",
+            "options": [
+                "Enterprise Service Bus",
+                "External Service Bus",
+                "Ethernet Service Bus"
+            ],
+            "correct": "Enterprise Service Bus"
+        },
+        {
+            "question": "Quel concept succède à SOA ?",
+            "options": [
+                "Microservices",
+                "Mainframe",
+                "Client-Serveur"
+            ],
+            "correct": "Microservices"
+        },
+        {
+            "question": "Quelle technologie pour Microservices ?",
+            "options": [
+                "Docker",
+                "WSDL",
+                "SOAP"
+            ],
+            "correct": "Docker"
+        },
+        {
+            "question": "Comment communiquent les microservices ?",
+            "options": [
+                "API REST",
+                "Shared DB",
+                "Direct Memory"
+            ],
+            "correct": "API REST"
+        },
+        {
+            "question": "Quel avantage de SOA ?",
+            "options": [
+                "Réutilisabilité",
+                "Vitesse",
+                "Complexité"
+            ],
+            "correct": "Réutilisabilité"
+        },
+        {
+            "question": "Quel inconvénient de SOA ?",
+            "options": [
+                "Complexité",
+                "Simplicité",
+                "Coût nul"
+            ],
+            "correct": "Complexité"
+        },
+        {
+            "question": "Quelle couche gère l'orchestration ?",
+            "options": [
+                "BPEL",
+                "HTML",
+                "CSS"
+            ],
+            "correct": "BPEL"
+        },
+        {
+            "question": "Que signifie BPEL ?",
+            "options": [
+                "Business Process Execution Language",
+                "Basic Protocol EL",
+                "Binary Process EL"
+            ],
+            "correct": "Business Process Execution Language"
+        },
+        {
+            "question": "Quel code HTTP pour succès ?",
+            "options": [
+                "200",
+                "404",
+                "500"
+            ],
+            "correct": "200"
+        },
+        {
+            "question": "Quel code HTTP pour non trouvé ?",
+            "options": [
+                "404",
+                "200",
+                "503"
+            ],
+            "correct": "404"
+        },
+        {
+            "question": "Quel code HTTP pour erreur serveur ?",
+            "options": [
+                "500",
+                "200",
+                "400"
+            ],
+            "correct": "500"
+        },
+        {
+            "question": "Quel est le contrat d'un service ?",
+            "options": [
+                "Interface",
+                "Classe",
+                "Objet"
+            ],
+            "correct": "Interface"
+        },
+        {
+            "question": "Quel pattern pour la tolérance aux pannes ?",
+            "options": [
+                "Circuit Breaker",
+                "Singleton",
+                "Factory"
+            ],
+            "correct": "Circuit Breaker"
+        },
+        {
+            "question": "Quel outil pour tester des API ?",
+            "options": [
+                "Postman",
+                "Chrome",
+                "Notepad"
+            ],
+            "correct": "Postman"
+        },
+        {
+            "question": "Quel framework Java pour REST ?",
+            "options": [
+                "Spring Boot",
+                "Swing",
+                "AWT"
+            ],
+            "correct": "Spring Boot"
+        },
+        {
+            "question": "Quel format de doc pour REST ?",
+            "options": [
+                "Swagger",
+                "WSDL",
+                "Word"
+            ],
+            "correct": "Swagger"
+        },
+        {
+            "question": "Que signifie API ?",
+            "options": [
+                "Application Programming Interface",
+                "App Program Init",
+                "Auto Programming Interface"
+            ],
+            "correct": "Application Programming Interface"
+        },
+        {
+            "question": "Quel type de service est sans état ?",
+            "options": [
+                "Stateless",
+                "Stateful",
+                "Session"
+            ],
+            "correct": "Stateless"
+        },
+        {
+            "question": "Quel header pour le type de contenu ?",
+            "options": [
+                "Content-Type",
+                "Accept",
+                "Auth"
+            ],
+            "correct": "Content-Type"
+        },
+        {
+            "question": "Quel header pour l'authentification ?",
+            "options": [
+                "Authorization",
+                "Login",
+                "User"
+            ],
+            "correct": "Authorization"
+        },
+        {
+            "question": "Quel standard de sécurité ?",
+            "options": [
+                "OAuth2",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": "OAuth2"
+        },
+        {
+            "question": "Quel format de jeton ?",
+            "options": [
+                "JWT",
+                "SessionID",
+                "Cookie"
+            ],
+            "correct": "JWT"
+        },
+        {
+            "question": "Que signifie XML ?",
+            "options": [
+                "Extensible Markup Language",
+                "Extra Multi Link",
+                "X Mod Language"
+            ],
+            "correct": "Extensible Markup Language"
+        },
+        {
+            "question": "Que signifie JSON ?",
+            "options": [
+                "JavaScript Object Notation",
+                "Java Set Object Name",
+                "Joint System On Note"
+            ],
+            "correct": "JavaScript Object Notation"
+        },
+        {
+            "question": "Quel est le rôle du Consumer ?",
+            "options": [
+                "Appeler le service",
+                "Fournir le service",
+                "Stocker"
+            ],
+            "correct": "Appeler le service"
+        },
+        {
+            "question": "Quel est le rôle du Provider ?",
+            "options": [
+                "Fournir le service",
+                "Appeler",
+                "Router"
+            ],
+            "correct": "Fournir le service"
+        },
+        {
+            "question": "Quel est le rôle du Registry ?",
+            "options": [
+                "Annuaire",
+                "Base",
+                "Bus"
+            ],
+            "correct": "Annuaire"
+        },
+        {
+            "question": "Quelle granularité pour SOA ?",
+            "options": [
+                "Grossière",
+                "Fine",
+                "Nulle"
+            ],
+            "correct": "Grossière"
+        },
+        {
+            "question": "Quelle granularité pour Microservices ?",
+            "options": [
+                "Fine",
+                "Grossière",
+                "Moyenne"
+            ],
+            "correct": "Fine"
+        },
+        {
+            "question": "Quel anti-pattern SOA ?",
+            "options": [
+                "Spaghetti",
+                "Lasagne",
+                "Ravioli"
+            ],
+            "correct": "Spaghetti"
+        },
+        {
+            "question": "Quel principe de conception ?",
+            "options": [
+                "KISS",
+                "HUG",
+                "LOVE"
+            ],
+            "correct": "KISS"
+        },
+        {
+            "question": "Que signifie DRY ?",
+            "options": [
+                "Don't Repeat Yourself",
+                "Do Repeat Yourself",
+                "Data Run Yet"
+            ],
+            "correct": "Don't Repeat Yourself"
+        },
+        {
+            "question": "Quel est un pattern d'intégration ?",
+            "options": [
+                "Adapter",
+                "Singleton",
+                "Observer"
+            ],
+            "correct": "Adapter"
+        },
+        {
+            "question": "Quel outil de médiation ?",
+            "options": [
+                "MuleSoft",
+                "Excel",
+                "Word"
+            ],
+            "correct": "MuleSoft"
+        },
+        {
+            "question": "Quel protocole de messagerie ?",
+            "options": [
+                "AMQP",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": "AMQP"
+        },
+        {
+            "question": "Quelle architecture événementielle ?",
+            "options": [
+                "EDA",
+                "SOA",
+                "MVC"
+            ],
+            "correct": "EDA"
+        },
+        {
+            "question": "Quel pattern isole les services ?",
+            "options": [
+                "Bulkhead",
+                "Bridge",
+                "Proxy"
+            ],
+            "correct": "Bulkhead"
+        }
+    ],
+    "machine_learning": [
+        {
+            "question": "Quel type d'apprentissage avec étiquettes ?",
+            "options": [
+                "Supervisé",
+                "Non supervisé",
+                "Renforcement"
+            ],
+            "correct": "Supervisé"
+        },
+        {
+            "question": "Quel type d'apprentissage sans étiquettes ?",
+            "options": [
+                "Non supervisé",
+                "Supervisé",
+                "Profond"
+            ],
+            "correct": "Non supervisé"
+        },
+        {
+            "question": "Quel algorithme de classification ?",
+            "options": [
+                "KNN",
+                "K-Means",
+                "Apriori"
+            ],
+            "correct": "KNN"
+        },
+        {
+            "question": "Quel algorithme de clustering ?",
+            "options": [
+                "K-Means",
+                "SVM",
+                "Linear Reg"
+            ],
+            "correct": "K-Means"
+        },
+        {
+            "question": "Que signifie ML ?",
+            "options": [
+                "Machine Learning",
+                "Multi Level",
+                "My Link"
+            ],
+            "correct": "Machine Learning"
+        },
+        {
+            "question": "Quel modèle imite le cerveau ?",
+            "options": [
+                "Réseau de neurones",
+                "Arbre de décision",
+                "SVM"
+            ],
+            "correct": "Réseau de neurones"
+        },
+        {
+            "question": "Quelle librairie Python populaire ?",
+            "options": [
+                "Scikit-learn",
+                "JQuery",
+                "React"
+            ],
+            "correct": "Scikit-learn"
+        },
+        {
+            "question": "Quelle librairie pour le Deep Learning ?",
+            "options": [
+                "TensorFlow",
+                "Pandas",
+                "NumPy"
+            ],
+            "correct": "TensorFlow"
+        },
+        {
+            "question": "Quel problème prédit une valeur ?",
+            "options": [
+                "Régression",
+                "Classification",
+                "Clustering"
+            ],
+            "correct": "Régression"
+        },
+        {
+            "question": "Quel problème prédit une classe ?",
+            "options": [
+                "Classification",
+                "Régression",
+                "Association"
+            ],
+            "correct": "Classification"
+        },
+        {
+            "question": "Que signifie Overfitting ?",
+            "options": [
+                "Surapprentissage",
+                "Sous-apprentissage",
+                "Apprentissage juste"
+            ],
+            "correct": "Surapprentissage"
+        },
+        {
+            "question": "Que signifie Underfitting ?",
+            "options": [
+                "Sous-apprentissage",
+                "Surapprentissage",
+                "Bon"
+            ],
+            "correct": "Sous-apprentissage"
+        },
+        {
+            "question": "Quelle mesure pour la classification ?",
+            "options": [
+                "Précision",
+                "MSE",
+                "MAE"
+            ],
+            "correct": "Précision"
+        },
+        {
+            "question": "Quelle mesure pour la régression ?",
+            "options": [
+                "MSE",
+                "Accuracy",
+                "F1-Score"
+            ],
+            "correct": "MSE"
+        },
+        {
+            "question": "Quel ensemble sert à apprendre ?",
+            "options": [
+                "Train set",
+                "Test set",
+                "Val set"
+            ],
+            "correct": "Train set"
+        },
+        {
+            "question": "Quel ensemble sert à valider ?",
+            "options": [
+                "Test set",
+                "Train set",
+                "Data set"
+            ],
+            "correct": "Test set"
+        },
+        {
+            "question": "Quel est un hyperparamètre ?",
+            "options": [
+                "Learning Rate",
+                "Poids",
+                "Biais"
+            ],
+            "correct": "Learning Rate"
+        },
+        {
+            "question": "Quel est un paramètre appris ?",
+            "options": [
+                "Poids",
+                "Learning Rate",
+                "Batch Size"
+            ],
+            "correct": "Poids"
+        },
+        {
+            "question": "Quelle fonction active un neurone ?",
+            "options": [
+                "Activation",
+                "Perte",
+                "Optimisation"
+            ],
+            "correct": "Activation"
+        },
+        {
+            "question": "Quelle fonction commune d'activation ?",
+            "options": [
+                "ReLU",
+                "Sum",
+                "Mean"
+            ],
+            "correct": "ReLU"
+        },
+        {
+            "question": "Quel algo pour optimiser ?",
+            "options": [
+                "Gradient Descent",
+                "Backprop",
+                "Forward"
+            ],
+            "correct": "Gradient Descent"
+        },
+        {
+            "question": "Quelle technique réduit la dimension ?",
+            "options": [
+                "PCA",
+                "SVM",
+                "KNN"
+            ],
+            "correct": "PCA"
+        },
+        {
+            "question": "Quel terme pour nettoyer les données ?",
+            "options": [
+                "Preprocessing",
+                "Training",
+                "Testing"
+            ],
+            "correct": "Preprocessing"
+        },
+        {
+            "question": "Quelle technique pour les données manquantes ?",
+            "options": [
+                "Imputation",
+                "Suppression",
+                "Ignorer"
+            ],
+            "correct": "Imputation"
+        },
+        {
+            "question": "Quelle technique met à l'échelle ?",
+            "options": [
+                "Normalisation",
+                "Rotation",
+                "Translation"
+            ],
+            "correct": "Normalisation"
+        },
+        {
+            "question": "Quel outil de visualisation ?",
+            "options": [
+                "Matplotlib",
+                "Numpy",
+                "Scikit"
+            ],
+            "correct": "Matplotlib"
+        },
+        {
+            "question": "Quel notebook interactif ?",
+            "options": [
+                "Jupyter",
+                "Atom",
+                "Sublime"
+            ],
+            "correct": "Jupyter"
+        },
+        {
+            "question": "Quel service ML sur AWS ?",
+            "options": [
+                "SageMaker",
+                "EC2",
+                "S3"
+            ],
+            "correct": "SageMaker"
+        },
+        {
+            "question": "Quel service ML sur Google ?",
+            "options": [
+                "AutoML",
+                "Compute",
+                "Storage"
+            ],
+            "correct": "AutoML"
+        },
+        {
+            "question": "Que signifie AI ?",
+            "options": [
+                "Artificial Intelligence",
+                "Auto Interface",
+                "App Intra"
+            ],
+            "correct": "Artificial Intelligence"
+        },
+        {
+            "question": "Quel domaine traite le langage ?",
+            "options": [
+                "NLP",
+                "CV",
+                "RL"
+            ],
+            "correct": "NLP"
+        },
+        {
+            "question": "Quel domaine traite l'image ?",
+            "options": [
+                "Computer Vision",
+                "NLP",
+                "Audio"
+            ],
+            "correct": "Computer Vision"
+        },
+        {
+            "question": "Quel algo utilise des arbres ?",
+            "options": [
+                "Random Forest",
+                "K-Means",
+                "RNN"
+            ],
+            "correct": "Random Forest"
+        },
+        {
+            "question": "Quel algo utilise des vecteurs supports ?",
+            "options": [
+                "SVM",
+                "KNN",
+                "DBSCAN"
+            ],
+            "correct": "SVM"
+        },
+        {
+            "question": "Quel framework Deep Learning Facebook ?",
+            "options": [
+                "PyTorch",
+                "TensorFlow",
+                "Keras"
+            ],
+            "correct": "PyTorch"
+        },
+        {
+            "question": "Quelle couche pour les images ?",
+            "options": [
+                "CNN",
+                "RNN",
+                "LSTM"
+            ],
+            "correct": "CNN"
+        },
+        {
+            "question": "Quelle couche pour les séquences ?",
+            "options": [
+                "RNN",
+                "CNN",
+                "Dense"
+            ],
+            "correct": "RNN"
+        },
+        {
+            "question": "Quelle technique évite le surapprentissage ?",
+            "options": [
+                "Dropout",
+                "Dense",
+                "Flatten"
+            ],
+            "correct": "Dropout"
+        },
+        {
+            "question": "Quel est le biais ?",
+            "options": [
+                "Erreur systématique",
+                "Variance",
+                "Bruit"
+            ],
+            "correct": "Erreur systématique"
+        },
+        {
+            "question": "Quelle est la variance ?",
+            "options": [
+                "Sensibilité aux données",
+                "Erreur constante",
+                "Justesse"
+            ],
+            "correct": "Sensibilité aux données"
+        },
+        {
+            "question": "Quel compromis classique ?",
+            "options": [
+                "Biais-Variance",
+                "Vitesse-Précision",
+                "Temps-Espace"
+            ],
+            "correct": "Biais-Variance"
+        },
+        {
+            "question": "Quelle métrique combine Précision et Rappel ?",
+            "options": [
+                "F1-Score",
+                "Accuracy",
+                "ROC"
+            ],
+            "correct": "F1-Score"
+        },
+        {
+            "question": "Quelle courbe évalue un classifieur ?",
+            "options": [
+                "ROC",
+                "Lineaire",
+                "Exponentielle"
+            ],
+            "correct": "ROC"
+        },
+        {
+            "question": "Qu'est-ce que l'AUC ?",
+            "options": [
+                "Area Under Curve",
+                "Auto Unit Code",
+                "All User Case"
+            ],
+            "correct": "Area Under Curve"
+        },
+        {
+            "question": "Quel type d'IA joue aux échecs ?",
+            "options": [
+                "IA Faible",
+                "IA Forte",
+                "IA Générale"
+            ],
+            "correct": "IA Faible"
+        },
+        {
+            "question": "Quel test mesure l'intelligence ?",
+            "options": [
+                "Test de Turing",
+                "Test de QI",
+                "Test A/B"
+            ],
+            "correct": "Test de Turing"
+        },
+        {
+            "question": "Quel algo d'apprentissage par renforcement ?",
+            "options": [
+                "Q-Learning",
+                "K-Means",
+                "SVM"
+            ],
+            "correct": "Q-Learning"
+        },
+        {
+            "question": "Quelle validation croisée ?",
+            "options": [
+                "K-Fold",
+                "Split",
+                "Holdout"
+            ],
+            "correct": "K-Fold"
+        },
+        {
+            "question": "Quel format de modèle portable ?",
+            "options": [
+                "ONNX",
+                "JSON",
+                "XML"
+            ],
+            "correct": "ONNX"
+        },
+        {
+            "question": "Quel terme pour étiqueter les données ?",
+            "options": [
+                "Annotation",
+                "Parsing",
+                "Compiling"
+            ],
+            "correct": "Annotation"
+        }
+    ],
+    "data_science": [
+        {
+            "question": "Quelle est la première étape ?",
+            "options": [
+                "Collecte",
+                "Analyse",
+                "Modélisation"
+            ],
+            "correct": "Collecte"
+        },
+        {
+            "question": "Quelle librairie pour les DataFrames ?",
+            "options": [
+                "Pandas",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "correct": "Pandas"
+        },
+        {
+            "question": "Quelle librairie pour le calcul numérique ?",
+            "options": [
+                "NumPy",
+                "Pandas",
+                "Seaborn"
+            ],
+            "correct": "NumPy"
+        },
+        {
+            "question": "Quelle librairie pour les graphiques ?",
+            "options": [
+                "Matplotlib",
+                "Pandas",
+                "SciPy"
+            ],
+            "correct": "Matplotlib"
+        },
+        {
+            "question": "Quel langage dominant ?",
+            "options": [
+                "Python",
+                "C++",
+                "Java"
+            ],
+            "correct": "Python"
+        },
+        {
+            "question": "Quel autre langage statistique ?",
+            "options": [
+                "R",
+                "C#",
+                "Ruby"
+            ],
+            "correct": "R"
+        },
+        {
+            "question": "Quel type de données est CSV ?",
+            "options": [
+                "Structuré",
+                "Non structuré",
+                "Semi-structuré"
+            ],
+            "correct": "Structuré"
+        },
+        {
+            "question": "Quel type de données est une image ?",
+            "options": [
+                "Non structuré",
+                "Structuré",
+                "Texte"
+            ],
+            "correct": "Non structuré"
+        },
+        {
+            "question": "Quel outil pour requête SQL ?",
+            "options": [
+                "SQL",
+                "Pandas",
+                "Excel"
+            ],
+            "correct": "SQL"
+        },
+        {
+            "question": "Que signifie EDA ?",
+            "options": [
+                "Exploratory Data Analysis",
+                "External Data Access",
+                "Easy Data App"
+            ],
+            "correct": "Exploratory Data Analysis"
+        },
+        {
+            "question": "Quelle mesure de tendance centrale ?",
+            "options": [
+                "Moyenne",
+                "Ecart-type",
+                "Variance"
+            ],
+            "correct": "Moyenne"
+        },
+        {
+            "question": "Quelle mesure de dispersion ?",
+            "options": [
+                "Ecart-type",
+                "Moyenne",
+                "Mode"
+            ],
+            "correct": "Ecart-type"
+        },
+        {
+            "question": "Quelle valeur sépare en deux ?",
+            "options": [
+                "Médiane",
+                "Moyenne",
+                "Mode"
+            ],
+            "correct": "Médiane"
+        },
+        {
+            "question": "Quelle valeur la plus fréquente ?",
+            "options": [
+                "Mode",
+                "Moyenne",
+                "Médiane"
+            ],
+            "correct": "Mode"
+        },
+        {
+            "question": "Quel graphique pour la distribution ?",
+            "options": [
+                "Histogramme",
+                "Pie Chart",
+                "Line"
+            ],
+            "correct": "Histogramme"
+        },
+        {
+            "question": "Quel graphique pour la corrélation ?",
+            "options": [
+                "Scatter Plot",
+                "Bar Chart",
+                "Box Plot"
+            ],
+            "correct": "Scatter Plot"
+        },
+        {
+            "question": "Quel graphique pour les outliers ?",
+            "options": [
+                "Box Plot",
+                "Histogramme",
+                "Pie Chart"
+            ],
+            "correct": "Box Plot"
+        },
+        {
+            "question": "Que signifie CSV ?",
+            "options": [
+                "Comma Separated Values",
+                "Common System Video",
+                "Code Source Value"
+            ],
+            "correct": "Comma Separated Values"
+        },
+        {
+            "question": "Quel format de données web ?",
+            "options": [
+                "JSON",
+                "CSV",
+                "XLS"
+            ],
+            "correct": "JSON"
+        },
+        {
+            "question": "Quel processus nettoie les données ?",
+            "options": [
+                "Data Cleaning",
+                "Data Mining",
+                "Data Viz"
+            ],
+            "correct": "Data Cleaning"
+        },
+        {
+            "question": "Quel processus découvre des modèles ?",
+            "options": [
+                "Data Mining",
+                "Data Entry",
+                "Data Show"
+            ],
+            "correct": "Data Mining"
+        },
+        {
+            "question": "Quelle technique remplit les trous ?",
+            "options": [
+                "Imputation",
+                "Suppression",
+                "Copie"
+            ],
+            "correct": "Imputation"
+        },
+        {
+            "question": "Quelle variable prédit ?",
+            "options": [
+                "Indépendante",
+                "Dépendante",
+                "Cible"
+            ],
+            "correct": "Indépendante"
+        },
+        {
+            "question": "Quelle variable est prédite ?",
+            "options": [
+                "Cible",
+                "Feature",
+                "Attribut"
+            ],
+            "correct": "Cible"
+        },
+        {
+            "question": "Quel coefficient de corrélation ?",
+            "options": [
+                "Pearson",
+                "Simpson",
+                "Turing"
+            ],
+            "correct": "Pearson"
+        },
+        {
+            "question": "Quelle valeur max de corrélation ?",
+            "options": [
+                "1",
+                "100",
+                "0"
+            ],
+            "correct": "1"
+        },
+        {
+            "question": "Quelle valeur min de corrélation ?",
+            "options": [
+                "-1",
+                "0",
+                "-100"
+            ],
+            "correct": "-1"
+        },
+        {
+            "question": "Quel biais cognitif confirmatoire ?",
+            "options": [
+                "Confirmation",
+                "Survivant",
+                "Sélection"
+            ],
+            "correct": "Confirmation"
+        },
+        {
+            "question": "Quel paradoxe statistique ?",
+            "options": [
+                "Simpson",
+                "Monty Hall",
+                "Fermi"
+            ],
+            "correct": "Simpson"
+        },
+        {
+            "question": "Quelle loi des grands nombres ?",
+            "options": [
+                "Convergence",
+                "Divergence",
+                "Hasard"
+            ],
+            "correct": "Convergence"
+        },
+        {
+            "question": "Quel test d'hypothèse ?",
+            "options": [
+                "Student t-test",
+                "Unit test",
+                "System test"
+            ],
+            "correct": "Student t-test"
+        },
+        {
+            "question": "Quelle valeur p indique significativité ?",
+            "options": [
+                "< 0.05",
+                "> 0.5",
+                "= 1"
+            ],
+            "correct": "< 0.05"
+        },
+        {
+            "question": "Quel type d'erreur Faux Positif ?",
+            "options": [
+                "Type I",
+                "Type II",
+                "Type III"
+            ],
+            "correct": "Type I"
+        },
+        {
+            "question": "Quel type d'erreur Faux Négatif ?",
+            "options": [
+                "Type II",
+                "Type I",
+                "Type X"
+            ],
+            "correct": "Type II"
+        },
+        {
+            "question": "Quelle technique de ré-échantillonnage ?",
+            "options": [
+                "Bootstrap",
+                "Backup",
+                "Restore"
+            ],
+            "correct": "Bootstrap"
+        },
+        {
+            "question": "Quel environnement Big Data ?",
+            "options": [
+                "Hadoop",
+                "Excel",
+                "Access"
+            ],
+            "correct": "Hadoop"
+        },
+        {
+            "question": "Quel outil de tableau de bord ?",
+            "options": [
+                "Tableau",
+                "Word",
+                "Notepad"
+            ],
+            "correct": "Tableau"
+        },
+        {
+            "question": "Quel est le pétrole du 21e siècle ?",
+            "options": [
+                "Données",
+                "Or",
+                "Silicium"
+            ],
+            "correct": "Données"
+        },
+        {
+            "question": "Quel métier analyse les données ?",
+            "options": [
+                "Data Analyst",
+                "Web Dev",
+                "Admin Sys"
+            ],
+            "correct": "Data Analyst"
+        },
+        {
+            "question": "Quel métier crée des modèles ?",
+            "options": [
+                "Data Scientist",
+                "Analyst",
+                "Manager"
+            ],
+            "correct": "Data Scientist"
+        },
+        {
+            "question": "Quel métier gère l'infrastructure ?",
+            "options": [
+                "Data Engineer",
+                "Scientist",
+                "Analyst"
+            ],
+            "correct": "Data Engineer"
+        },
+        {
+            "question": "Quelle est la règle 80/20 ?",
+            "options": [
+                "Pareto",
+                "Newton",
+                "Moore"
+            ],
+            "correct": "Pareto"
+        },
+        {
+            "question": "Quel format de date standard ?",
+            "options": [
+                "ISO 8601",
+                "RFC",
+                "UTC"
+            ],
+            "correct": "ISO 8601"
+        },
+        {
+            "question": "Quel encodage de texte ?",
+            "options": [
+                "UTF-8",
+                "ASCII",
+                "Binary"
+            ],
+            "correct": "UTF-8"
+        },
+        {
+            "question": "Quelle jointure SQL garde tout ?",
+            "options": [
+                "FULL JOIN",
+                "INNER JOIN",
+                "LEFT JOIN"
+            ],
+            "correct": "FULL JOIN"
+        },
+        {
+            "question": "Quelle jointure SQL garde la gauche ?",
+            "options": [
+                "LEFT JOIN",
+                "RIGHT JOIN",
+                "INNER JOIN"
+            ],
+            "correct": "LEFT JOIN"
+        },
+        {
+            "question": "Quelle fonction SQL compte ?",
+            "options": [
+                "COUNT",
+                "SUM",
+                "AVG"
+            ],
+            "correct": "COUNT"
+        },
+        {
+            "question": "Quelle fonction SQL moyenne ?",
+            "options": [
+                "AVG",
+                "MEAN",
+                "MEDIAN"
+            ],
+            "correct": "AVG"
+        },
+        {
+            "question": "Quelle commande SQL groupe ?",
+            "options": [
+                "GROUP BY",
+                "ORDER BY",
+                "SORT BY"
+            ],
+            "correct": "GROUP BY"
+        },
+        {
+            "question": "Quelle commande SQL filtre ?",
+            "options": [
+                "WHERE",
+                "SELECT",
+                "FROM"
+            ],
+            "correct": "WHERE"
+        }
+    ],
+    "web": [
+        {
+            "question": "Que signifie HTML ?",
+            "options": [
+                "HyperText Markup Language",
+                "Home Tool Mark Link",
+                "High Text Make Lang"
+            ],
+            "correct": "HyperText Markup Language"
+        },
+        {
+            "question": "Que signifie CSS ?",
+            "options": [
+                "Cascading Style Sheets",
+                "Computer Style Sheet",
+                "Creative Style System"
+            ],
+            "correct": "Cascading Style Sheets"
+        },
+        {
+            "question": "Qulle balise pour un paragraphe ?",
+            "options": [
+                "<p>",
+                "<div>",
+                "<span>"
+            ],
+            "correct": "<p>"
+        },
+        {
+            "question": "Quelle balise pour un lien ?",
+            "options": [
+                "<a>",
+                "<link>",
+                "<href>"
+            ],
+            "correct": "<a>"
+        },
+        {
+            "question": "Quel attribut pour l'URL d'un lien ?",
+            "options": [
+                "href",
+                "src",
+                "link"
+            ],
+            "correct": "href"
+        },
+        {
+            "question": "Quel attribut pour l'image ?",
+            "options": [
+                "src",
+                "href",
+                "link"
+            ],
+            "correct": "src"
+        },
+        {
+            "question": "Quelle balise pour une liste à puces ?",
+            "options": [
+                "<ul>",
+                "<ol>",
+                "<li>"
+            ],
+            "correct": "<ul>"
+        },
+        {
+            "question": "Quelle balise pour une liste numérotée ?",
+            "options": [
+                "<ol>",
+                "<ul>",
+                "<li>"
+            ],
+            "correct": "<ol>"
+        },
+        {
+            "question": "Quelle balise pour un élément de liste ?",
+            "options": [
+                "<li>",
+                "<ul>",
+                "<ol>"
+            ],
+            "correct": "<li>"
+        },
+        {
+            "question": "Quelle balise pour le plus grand titre ?",
+            "options": [
+                "<h1>",
+                "<h6>",
+                "<header>"
+            ],
+            "correct": "<h1>"
+        },
+        {
+            "question": "Quelle balise pour un saut de ligne ?",
+            "options": [
+                "<br>",
+                "<lb>",
+                "<break>"
+            ],
+            "correct": "<br>"
+        },
+        {
+            "question": "Quel sélécteur CSS pour un ID ?",
+            "options": [
+                "#",
+                ".",
+                "*"
+            ],
+            "correct": "#"
+        },
+        {
+            "question": "Quel sélécteur CSS pour une classe ?",
+            "options": [
+                ".",
+                "#",
+                "&"
+            ],
+            "correct": "."
+        },
+        {
+            "question": "Quelle propriété change la couleur texte ?",
+            "options": [
+                "color",
+                "text-color",
+                "font-color"
+            ],
+            "correct": "color"
+        },
+        {
+            "question": "Quelle propriété change le fond ?",
+            "options": [
+                "background-color",
+                "color",
+                "back-color"
+            ],
+            "correct": "background-color"
+        },
+        {
+            "question": "Quelle propriété change la taille police ?",
+            "options": [
+                "font-size",
+                "text-size",
+                "size"
+            ],
+            "correct": "font-size"
+        },
+        {
+            "question": "Quelle propriété met en gras ?",
+            "options": [
+                "font-weight",
+                "font-style",
+                "bold"
+            ],
+            "correct": "font-weight"
+        },
+        {
+            "question": "Quel modèle de mise en page moderne ?",
+            "options": [
+                "Flexbox",
+                "Float",
+                "Table"
+            ],
+            "correct": "Flexbox"
+        },
+        {
+            "question": "Quel modèle 2D ?",
+            "options": [
+                "Grid",
+                "Flexbox",
+                "Block"
+            ],
+            "correct": "Grid"
+        },
+        {
+            "question": "Quelle balise pour le JavaScript ?",
+            "options": [
+                "<script>",
+                "<js>",
+                "<code>"
+            ],
+            "correct": "<script>"
+        },
+        {
+            "question": "Quelle balise pour le CSS interne ?",
+            "options": [
+                "<style>",
+                "<css>",
+                "<link>"
+            ],
+            "correct": "<style>"
+        },
+        {
+            "question": "Quelle section pour les métadonnées ?",
+            "options": [
+                "<head>",
+                "<body>",
+                "<footer>"
+            ],
+            "correct": "<head>"
+        },
+        {
+            "question": "Quelle section pour le contenu visible ?",
+            "options": [
+                "<body>",
+                "<head>",
+                "<html >"
+            ],
+            "correct": "<body>"
+        },
+        {
+            "question": "Quel Doctype pour HTML5 ?",
+            "options": [
+                "<!DOCTYPE html>",
+                "<html5>",
+                "<!DOCTYPE HTML4>"
+            ],
+            "correct": "<!DOCTYPE html>"
+        },
+        {
+            "question": "Quelle balise pour un tableau ?",
+            "options": [
+                "<table>",
+                "<grid>",
+                "<tab>"
+            ],
+            "correct": "<table>"
+        },
+        {
+            "question": "Quelle balise pour une ligne tableau ?",
+            "options": [
+                "<tr>",
+                "<td>",
+                "<th>"
+            ],
+            "correct": "<tr>"
+        },
+        {
+            "question": "Quelle balise pour une cellule tableau ?",
+            "options": [
+                "<td>",
+                "<tr>",
+                "<th>"
+            ],
+            "correct": "<td>"
+        },
+        {
+            "question": "Quelle balise pour une entête tableau ?",
+            "options": [
+                "<th>",
+                "<td>",
+                "<head>"
+            ],
+            "correct": "<th>"
+        },
+        {
+            "question": "Quel attribut pour un texte alternatif ?",
+            "options": [
+                "alt",
+                "title",
+                "desc"
+            ],
+            "correct": "alt"
+        },
+        {
+            "question": "Quelle unité relative ?",
+            "options": [
+                "em",
+                "px",
+                "cm"
+            ],
+            "correct": "em"
+        },
+        {
+            "question": "Quelle unité absolue ?",
+            "options": [
+                "px",
+                "em",
+                "rem"
+            ],
+            "correct": "px"
+        },
+        {
+            "question": "Quelle pseudo-classe au survol ?",
+            "options": [
+                ":hover",
+                ":click",
+                ":active"
+            ],
+            "correct": ":hover"
+        },
+        {
+            "question": "Quelle propriété pour la marge interne ?",
+            "options": [
+                "padding",
+                "margin",
+                "border"
+            ],
+            "correct": "padding"
+        },
+        {
+            "question": "Quelle propriété pour la marge externe ?",
+            "options": [
+                "margin",
+                "padding",
+                "space"
+            ],
+            "correct": "margin"
+        },
+        {
+            "question": "Quelle propriété pour la bordure ?",
+            "options": [
+                "border",
+                "outline",
+                "line"
+            ],
+            "correct": "border"
+        },
+        {
+            "question": "Quel positionnement par défaut ?",
+            "options": [
+                "static",
+                "relative",
+                "absolute"
+            ],
+            "correct": "static"
+        },
+        {
+            "question": "Quel positionnement par rapport à l'écran ?",
+            "options": [
+                "fixed",
+                "absolute",
+                "sticky"
+            ],
+            "correct": "fixed"
+        },
+        {
+            "question": "Quelle balise sémantique pour le haut ?",
+            "options": [
+                "<header>",
+                "<top>",
+                "<head>"
+            ],
+            "correct": "<header>"
+        },
+        {
+            "question": "Quelle balise sémantique pour le bas ?",
+            "options": [
+                "<footer>",
+                "<bottom>",
+                "<end>"
+            ],
+            "correct": "<footer>"
+        },
+        {
+            "question": "Quelle balise pour la navigation ?",
+            "options": [
+                "<nav>",
+                "<menu>",
+                "<dir>"
+            ],
+            "correct": "<nav>"
+        },
+        {
+            "question": "Quelle balise pour un article ?",
+            "options": [
+                "<article>",
+                "<section>",
+                "<div>"
+            ],
+            "correct": "<article>"
+        },
+        {
+            "question": "Quelle balise pour un côté ?",
+            "options": [
+                "<aside>",
+                "<side>",
+                "<div>"
+            ],
+            "correct": "<aside>"
+        },
+        {
+            "question": "Quel attribut pour ouvrir dans un nouvel onglet ?",
+            "options": [
+                "target='_blank'",
+                "new='tab'",
+                "open='new'"
+            ],
+            "correct": "target='_blank'"
+        },
+        {
+            "question": "Quel format image vectoriel ?",
+            "options": [
+                "SVG",
+                "JPG",
+                "PNG"
+            ],
+            "correct": "SVG"
+        },
+        {
+            "question": "Quel protocole sécurisé ?",
+            "options": [
+                "HTTPS",
+                "HTTP",
+                "FTP"
+            ],
+            "correct": "HTTPS"
+        },
+        {
+            "question": "Quel port standard Web ?",
+            "options": [
+                "80",
+                "21",
+                "25"
+            ],
+            "correct": "80"
+        },
+        {
+            "question": "Quel port standard Web sécurisé ?",
+            "options": [
+                "443",
+                "80",
+                "8080"
+            ],
+            "correct": "443"
+        },
+        {
+            "question": "Quelle version de CSS actuelle ?",
+            "options": [
+                "CSS3",
+                "CSS2",
+                "CSS4"
+            ],
+            "correct": "CSS3"
+        },
+        {
+            "question": "Quelle balise pour un formulaire ?",
+            "options": [
+                "<form>",
+                "<input>",
+                "<field>"
+            ],
+            "correct": "<form>"
+        },
+        {
+            "question": "Quel input pour un mot de passe ?",
+            "options": [
+                "type='password'",
+                "type='text'",
+                "type='hidden'"
+            ],
+            "correct": "type='password'"
+        }
+    ]
+}

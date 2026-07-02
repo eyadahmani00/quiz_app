@@ -1,0 +1,512 @@
+I. Très facile / Facile (20 QCM)
+
+Quel widget Flutter affiche du texte ?
+a) TextField
+b) Text ✅
+c) Container
+d) Row
+
+Quel widget crée un bouton cliquable ?
+a) TextButton ✅
+b) Text
+c) Container
+d) Column
+
+Pour créer un champ de saisie :
+a) Text
+b) TextField ✅
+c) TextButton
+d) Icon
+
+Column et Row servent à :
+a) Afficher des images
+b) Disposer les widgets verticalement ou horizontalement ✅
+c) Ajouter des marges
+d) Faire défiler des éléments
+
+Scaffold sert à :
+a) Afficher un texte
+b) Créer la structure de base d’une page ✅
+c) Créer un bouton
+d) Gérer les états
+
+Pour afficher une image depuis Internet :
+a) AssetImage
+b) NetworkImage ✅
+c) Container
+d) Text
+
+setState() est utilisé pour :
+a) Mettre à jour l’état d’un widget ✅
+b) Créer une nouvelle page
+c) Ajouter un bouton
+d) Afficher du texte
+
+mainAxisAlignment est utilisé dans :
+a) Column et Row ✅
+b) TextField
+c) Scaffold
+d) Container
+
+MaterialApp sert à :
+a) Créer la structure globale de l’app ✅
+b) Afficher un texte
+c) Ajouter un bouton
+d) Créer une liste
+
+Pour centrer un widget :
+a) Align
+b) Center ✅
+c) Row
+d) Column
+
+EdgeInsets.all(10) signifie :
+a) 10 pixels partout ✅
+b) 10 pixels seulement en haut
+c) 10 pixels à gauche
+d) 10 pixels en bas
+
+Pour faire défiler verticalement :
+a) ListView ✅
+b) Row
+c) Column
+d) Stack
+
+Icon(Icons.home) sert à :
+a) Créer un bouton
+b) Afficher une icône ✅
+c) Afficher un texte
+d) Créer un formulaire
+
+Expanded sert à :
+a) Remplir l’espace disponible ✅
+b) Ajouter un bouton
+c) Créer un texte
+d) Créer un formulaire
+
+Pour aller à une nouvelle page :
+a) Navigator.push ✅
+b) Navigator.pop
+c) setState()
+d) Container
+
+Colors.blue sert à :
+a) Définir la couleur d’un widget ✅
+b) Créer un texte
+c) Créer un bouton
+d) Ajouter une marge
+
+Pour afficher une liste d’éléments :
+a) ListView ✅
+b) Column
+c) Row
+d) Stack
+
+Text('Hello', style: TextStyle(fontSize: 20)) : que fait fontSize:20 ?
+a) Définit la couleur
+b) Définit la taille du texte ✅
+c) Définit le padding
+d) Définit l’alignement
+
+GestureDetector sert à :
+a) Détecter les gestes (tap, swipe) ✅
+b) Créer un bouton
+c) Créer un formulaire
+d) Afficher du texte
+
+Quel widget est utilisé pour une appBar ?
+a) AppBar ✅
+b) Scaffold
+c) Text
+d) Container
+
+II. Niveau Moyen (20 QCM)
+
+Comment ajouter un padding autour d’un widget ?
+a) Padding(padding: EdgeInsets.all(10), child: ...) ✅
+b) Container(margin: 10)
+c) Text(padding: 10)
+d) Row(padding: 10)
+
+ListView.builder sert à :
+a) Créer une liste statique
+b) Créer une liste dynamique ✅
+c) Créer une colonne
+d) Créer une row
+
+Pour gérer plusieurs pages avec routes :
+a) Navigator.pushNamed(context, '/home') ✅
+b) Navigator.pop(context)
+c) setState()
+d) Container()
+
+StatefulWidget est utilisé quand :
+a) Le widget est statique
+b) L’état du widget peut changer ✅
+c) On crée un texte
+d) On crée un bouton
+
+Pour récupérer le texte d’un TextField :
+a) TextEditingController ✅
+b) Text
+c) TextButton
+d) setState()
+
+Quel widget permet de superposer des widgets ?
+a) Stack ✅
+b) Column
+c) Row
+d) Container
+
+Flexible(flex: 2, child: ...) signifie :
+a) L’enfant prend 2 fois l’espace disponible ✅
+b) L’enfant est fixe
+c) L’enfant ne prend pas d’espace
+d) L’enfant disparait
+
+Drawer est utilisé pour :
+a) Ajouter un menu latéral ✅
+b) Créer une liste
+c) Créer un formulaire
+d) Afficher un texte
+
+Pour naviguer et revenir à la page précédente :
+a) Navigator.push
+b) Navigator.pop ✅
+c) Navigator.pushReplacement
+d) setState()
+
+CircularProgressIndicator() sert à :
+a) Afficher un indicateur de chargement ✅
+b) Créer un bouton
+c) Afficher un texte
+d) Créer un formulaire
+
+ClipRRect(borderRadius: BorderRadius.circular(10), child: ...) sert à :
+a) Arrondir les coins du widget ✅
+b) Ajouter un padding
+c) Ajouter un margin
+d) Changer la couleur
+
+SingleChildScrollView sert à :
+a) Faire défiler un seul widget ✅
+b) Créer une liste
+c) Créer une colonne
+d) Créer un formulaire
+
+Quelle propriété change l’alignement horizontal dans Row ?
+a) crossAxisAlignment
+b) mainAxisAlignment ✅
+c) padding
+d) margin
+
+Pour récupérer un item cliqué dans une ListView :
+a) onTap ✅
+b) onClick
+c) onChange
+d) onPressed
+
+MediaQuery.of(context).size.width sert à :
+a) Récupérer la largeur de l’écran ✅
+b) Récupérer la hauteur
+c) Changer la couleur
+d) Créer un bouton
+
+Pour afficher un SnackBar :
+a) ScaffoldMessenger.of(context).showSnackBar(...) ✅
+b) SnackBar.show()
+c) setState()
+d) Container()
+
+IconButton(icon: Icon(Icons.add), onPressed: () {}) : que fait onPressed ?
+a) Définit l’icône
+b) Définit l’action du clic ✅
+c) Définit la couleur
+d) Définit la taille
+
+Row(children: [Expanded(child: ...)]) : quel effet ?
+a) L’enfant prend tout l’espace disponible horizontal ✅
+b) L’enfant est fixe
+c) L’enfant disparait
+d) L’enfant ne prend pas d’espace
+
+Pour créer une liste horizontale :
+a) ListView(scrollDirection: Axis.horizontal) ✅
+b) Row()
+c) Column()
+d) Stack()
+
+DefaultTabController(length: 3, child: ...) : que fait length ?
+a) Nombre de tabs ✅
+b) Taille de l’écran
+c) Nombre de widgets
+d) Largeur du tab
+
+QCM Très Difficile (20)
+
+Quel sera le résultat du code suivant ?
+
+List<String> items = ['A', 'B', 'C'];
+for (var i = 0; i < items.length; i++) {
+  Future.delayed(Duration(seconds: i), () {
+    print(items[i]);
+  });
+}
+
+
+a) A B C (immédiat)
+b) A B C (avec délai) ✅
+c) Erreur d’index
+d) C C C
+
+Que fait ce snippet ?
+
+Container(
+  width: 100,
+  child: Row(
+    children: [
+      Expanded(child: Container(color: Colors.red)),
+      Container(width: 50, color: Colors.blue),
+    ],
+  ),
+)
+
+
+a) La ligne ne s’affiche pas
+b) La partie rouge prend tout l’espace restant ✅
+c) La partie bleue s’étire
+d) Erreur de compilation
+
+Quelle est l’erreur dans ce code ?
+
+Column(
+  children: [
+    Text('Hello'),
+    Text('World', mainAxisAlignment: MainAxisAlignment.center),
+  ],
+)
+
+
+a) Rien, code correct
+b) mainAxisAlignment n’existe pas sur Text ✅
+c) Il manque un Expanded
+d) Column doit avoir un Expanded
+
+Que fait ce code Flutter ?
+
+InkWell(
+  onTap: null,
+  child: Text('Click me'),
+)
+
+
+a) Affiche un bouton cliquable
+b) Affiche le texte mais il n’est pas cliquable ✅
+c) Erreur
+d) Affiche un bouton désactivé
+
+Quel est le problème ici ?
+
+ListView(
+  children: [
+    Container(height: 200, color: Colors.red),
+    Container(height: 200, color: Colors.green),
+  ],
+)
+
+
+a) ListView ne peut contenir que des Text
+b) Tout fonctionne ✅
+c) Problème de scroll
+d) Erreur de compilation
+
+Que fait ce snippet ?
+
+TextButton(
+  onPressed: () => print('Pressed'),
+  child: null,
+)
+
+
+a) Rien, erreur ✅
+b) Affiche le bouton cliquable
+c) Affiche un bouton vide mais cliquable
+d) Crash runtime
+
+Quelle sortie produit ce code ?
+
+int x = 5;
+print(x++ + ++x);
+
+
+a) 11
+b) 12 ✅
+c) 10
+d) 13
+
+Que fait setState() dans un StatelessWidget ?
+
+a) Met à jour l’état ✅
+b) Crée une nouvelle page
+c) Erreur de compilation ✅
+d) Met à jour un bouton
+
+Quelle est la couleur finale du Container ?
+
+Container(
+  width: 100,
+  height: 100,
+  color: Colors.red,
+  child: Container(
+    color: Colors.blue,
+  ),
+)
+
+
+a) Rouge ✅
+b) Bleu
+c) Violet
+d) Transparent
+
+Que fait ce code ?
+
+Future<int> getData() async {
+  return 10;
+}
+
+void main() {
+  var data = getData();
+  print(data);
+}
+
+
+a) Affiche 10
+b) Affiche Instance of 'Future<int>' ✅
+c) Erreur
+d) Affiche null
+
+Que fait ce code ?
+
+Row(
+  children: [
+    Expanded(child: Container(width: 50, color: Colors.red)),
+    Container(width: 100, color: Colors.green),
+  ],
+)
+
+
+a) La partie rouge prend tout l’espace restant ✅
+b) La partie rouge garde width 50
+c) Erreur
+d) La partie verte s’étire
+
+Que produit ce code ?
+
+List<int> nums = [1, 2, 3];
+nums.map((e) => e * 2);
+print(nums);
+
+
+a) [2,4,6]
+b) [1,2,3] ✅
+c) Erreur
+d) [null]
+
+Quelle est la sortie ?
+
+var a = [1,2,3];
+var b = a;
+b.add(4);
+print(a);
+
+
+a) [1,2,3]
+b) [1,2,3,4] ✅
+c) [4]
+d) Erreur
+
+Que fait ce code ?
+
+TextField(
+  controller: null,
+)
+
+
+a) Affiche le champ normalement ✅
+b) Crash
+c) Champ non éditable
+d) Champ invisible
+
+Quel widget permet de superposer des widgets avec un positionnement précis ?
+
+a) Stack + Positioned ✅
+b) Column
+c) Row
+d) ListView
+
+Que fait ce snippet ?
+
+Container(
+  constraints: BoxConstraints(maxWidth: 100),
+  width: 200,
+  color: Colors.red,
+)
+
+
+a) Largeur = 200
+b) Largeur = 100 ✅
+c) Largeur = 0
+d) Crash
+
+Quelle sortie produit ce code ?
+
+int x = 0;
+List.generate(3, (i) => x++);
+print(x);
+
+
+a) 0
+b) 1
+c) 3 ✅
+d) 2
+
+Que fait ce code Flutter ?
+
+Column(
+  children: [
+    Text('A'),
+    Expanded(child: Text('B')),
+  ],
+)
+
+
+a) Erreur ✅
+b) Tout fonctionne
+c) Text 'B' prend toute la hauteur
+d) Text 'A' disparaît
+
+Quelle est la couleur finale du texte ?
+
+Text(
+  'Hello',
+  style: TextStyle(color: Colors.red),
+  textAlign: TextAlign.center,
+)
+
+
+a) Rouge ✅
+b) Noir
+c) Bleu
+d) Vert
+
+Quel est le résultat ?
+
+var list = [1, 2, 3];
+var newList = list.where((e) => e > 1);
+print(newList.runtimeType);
+
+
+a) List<int>
+b) Iterable<int> ✅
+c) [2,3]
+d) Erreur
