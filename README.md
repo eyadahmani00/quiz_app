@@ -1,16 +1,41 @@
-# quiz_app
+# 🎓 Quiz Éducatif
 
-A new Flutter project.
+Une application Flutter de quiz interactif pour tester et améliorer vos connaissances sur différents thèmes tech.
 
-## Getting Started
+## ✨ Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- 🎨 **8 thèmes disponibles** : Flutter, IoT, Cloud Computing, Big Data, SOA, Machine Learning, Data Science, Web
+- 📊 **3 niveaux de difficulté** : Facile, Moyen, Difficile
+- ⏱️ **Quiz chronométré** avec 10 questions par session
+- 📈 **Résultats détaillés** avec score en pourcentage et feedback personnalisé
+- 🎯 Interface simple et intuitive
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Aperçu
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+L'application propose une sélection de thème par une interface en grille colorée, suivie d'un choix de difficulté, puis d'une série de questions à choix multiples avec un système de progression et de chronomètre.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Installation
+
+```bash
+git clone https://github.com/eyadahmani00/quiz_app.git
+cd quiz_app
+flutter pub get
+flutter run
+```
+
+## 🛠️ Technologies
+
+- **Flutter** & **Dart**
+- Questions et données stockées en JSON (`assets/questions.json`)
+
+## 📂 Structure du projet
+lib/
+├── models/         # Modèles de données (Question)
+├── pages/          # Écrans (Home, Sélection niveau, Quiz, Résultats)
+├── services/        # Logique métier (QuizService)
+└── main.dart
+
+
+## 👤 Auteur
+
+Développé par [eyadahmani00](https://github.com/eyadahmani00)
